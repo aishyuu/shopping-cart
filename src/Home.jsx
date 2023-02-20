@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import { motion } from 'framer-motion'
 import Landing from './components/Landing'
+import Footer from './components/Footer'
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
       >
         <Landing />
       </motion.div>
-      
+      <Footer />
     </div>
   )
 }
