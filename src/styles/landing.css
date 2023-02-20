@@ -49,6 +49,8 @@
     background-color: black;
     padding: 3px 10px;
     border-radius: 0.5rem;
+    color: white;
+    letter-spacing: 3px;
 }
 
 .landingVisit:hover {

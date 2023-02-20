@@ -6,11 +6,16 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
+import Store from './pages/Store';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />
+  }, 
+  {
+    path: '/store',
+    element: <Store />
   }
 ])
 

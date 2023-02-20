@@ -1,5 +1,6 @@
 import '../styles/landing.css'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 export default function Landing() {
     return(
@@ -27,7 +28,9 @@ export default function Landing() {
                         >
                             <h3>&gt;&gt;</h3>
                         </motion.div>
-                        <h3 className="landingVisit">VISIT THE SHOP</h3>
+                        <Link to={`store`} style={{textDecoration: 'none'}}>
+                            <h3 className="landingVisit">VISIT THE SHOP</h3>
+                        </Link>
                         <motion.div
                             initial = {{
                                 x: 0
