@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+
+.headerContainer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-family: 'Gajraj', cursive;
+    display: flex;
+}
+
+.headerText {
+    text-decoration: none;
+    color: white;
+}
