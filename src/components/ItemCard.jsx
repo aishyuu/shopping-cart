@@ -14,7 +14,7 @@ export default function ItemCard({item}) {
                         <p className="saleOriginalPrice">${item.stock_price}</p>
                         <h1 className="saleNewPrice">${item.sale_price}</h1>
                     </div>
-                : <h1>{item.sale_price}</h1>}
+                : <h1>${item.sale_price}</h1>}
                 <p>{item.description}</p>
             </div>
         </div>

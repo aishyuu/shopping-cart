@@ -8,20 +8,21 @@
     gap: 15px;
     border: 1px solid black;
     width: 90%;
-    margin: 0 auto;
+    height: 160px;
+    margin: 0 auto 16px auto;
 }
 
 .itemCardImage {
-    border: 1px solid black;
-    float: left;
-    align-items: center;
+    border-right: 1px solid black;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .itemCardImage > img {
     max-width: 80px;
-    height: auto;
+    height: 80%;
 }
 
 .itemCardInfo {
@@ -30,6 +31,12 @@
 
 .itemLink {
     font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.itemLink:hover {
+    color: rgb(22, 164, 215);
 }
 
 .itemOnSale {
