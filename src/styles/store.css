@@ -1,3 +1,27 @@
 .storeContent {
     height: 90vh;
 }
+
+.itemCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 15px;
+}
+
+.itemCardImage > img {
+    max-width: 100px;
+    height: auto;
+}
+
+.itemCardImage {
+    margin: 0 auto;
+}
+
+.itemOnSale {
+    display: flex;
+    gap: 10px;
+}
+
+.saleOriginalPrice {
+    text-decoration: line-through;
+}

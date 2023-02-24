@@ -12,7 +12,7 @@ export default
         "connectivity_type": "Wired",
         "description": "Maximize your personal audio experience has never been easier!",
         "images": [
-            
+            'https://m.media-amazon.com/images/I/71ZC0hq5mGL._AC_SL1500_.jpg'
         ]
     }
 ]
