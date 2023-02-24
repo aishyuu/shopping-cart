@@ -6,15 +6,30 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 15px;
-}
-
-.itemCardImage > img {
-    max-width: 100px;
-    height: auto;
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .itemCardImage {
-    margin: 0 auto;
+    border: 1px solid black;
+    float: left;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.itemCardImage > img {
+    max-width: 80px;
+    height: auto;
+}
+
+.itemCardInfo {
+    margin: 16px;
+}
+
+.itemLink {
+    font-size: 2rem;
 }
 
 .itemOnSale {
