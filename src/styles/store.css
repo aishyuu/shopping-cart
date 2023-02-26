@@ -1,15 +1,23 @@
+.storeContainer {
+    background-color: rgb(225, 225, 225);
+}
+
 .storeContent {
-    height: 90vh;
+    min-height: 90vh;
+    margin-top: 24px;
 }
 
 .itemCardContainer {
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 15px;
     border: 1px solid black;
+    border-radius: 0.5rem;
     width: 90%;
-    height: 160px;
+    height: 180px;
     margin: 0 auto 16px auto;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0);
 }
 
 .itemCardImage {
@@ -21,8 +29,10 @@
 }
 
 .itemCardImage > img {
-    max-width: 80px;
-    height: 80%;
+    max-width: 90px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
 }
 
 .itemCardInfo {

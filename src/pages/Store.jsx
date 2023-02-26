@@ -7,10 +7,9 @@ import ItemCard from "../components/ItemCard";
 export default function Store() {
     console.log(storeItems);
     return(
-        <div>
+        <div className="storeContainer">
             <Header />
             <div className="storeContent">
-                <h1>Content</h1>
                 {storeItems.map(item => {
                     return(
                         <ItemCard key={item.id}
