@@ -17,13 +17,24 @@ export default function Item() {
                         </div>
                     </Link>
                 </div>
-                <h1>Item {id}</h1>
                 <div className="purchaseContainer">
                     <div className="imageContainer">
                         <img className="itemImage" src={item.images[0]} alt="" />
                     </div>
                     <div className="informationContainer">
                         <h1>{item.name}</h1>
+                        {item.on_sale ? 
+                            <div className="itemOnSale">
+                                <p className="saleOriginalPrice">${item.stock_price}</p>
+                                <h1 className="saleNewPrice">${item.sale_price}</h1>
+                            </div>
+                        :
+                            <div className="itemOnSale">
+                                <h1>${item.sale_price}</h1>
+                            </div>
+                        }
+                        <p>{item.description}</p>
+                        <button className="cartButton">Add to Cart</button>
                     </div>
                 </div>
             </div>
